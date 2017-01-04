@@ -9,6 +9,7 @@ Dogz Direction website
 - update pages copy to include content instructions
 - find images
 - update website styling
+- integrate templates into templating language (separate content from structure)
 - (future) page: gallery
 
 # done

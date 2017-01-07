@@ -9,8 +9,8 @@ black & white
 */
 
 html, body {
-	font-size:12px;
-	line-height:18px;
+	font-size: 16px;
+	line-height: 23px;
 	height: 100%;
 }
 body {background: #f9f9f9 url(../img/page-bg-1.jpg);}
@@ -103,6 +103,7 @@ blockquote.pull-right {border-right: 5px solid #999;}
 	border-bottom: 1px dashed #a9a9a9;
 	border-top: 1px dashed #a9a9a9;
 }
+.navbar .nav { margin: 0; }
 .navbar .nav > li > a {
 	font-family: "Oswald", sans-serif;
 	font-weight: normal;
@@ -823,10 +824,25 @@ a.accordion-toggle{background: #f5f5f5;}
 	.the-icons li {float: none; width: 100%; line-height: 25px;}
 }
 
+/* google map @contact page */
+.google-map {
+	background: white;
+  padding: 10px;
+}
+.google-map iframe { height: 240px; }
+
+@media (min-width: 980px) {
+	.google-map iframe { height: 350px; }
+}
+
 /**************************************
 / TRUMPS
 **************************************/
+.block { display: block; }
 .relative { position: relative; }
 .absolute { position: absolute; }
 .pos-t-l { top: 0; left: 0; }
 .pos-l { left: 0; }
+.width100 { width: 100%; }
+.m-b-30 { margin-bottom: 30px; }
+.m-b-60 { margin-bottom: 60px; }

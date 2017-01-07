@@ -5,13 +5,8 @@ Dogz Direction website
 Get website up and running!
 - find stock dog images
 - update services page to build requirements
-- update about page to build requirements
-- update contact page to build requirements
-- fix build issues
 - update images
 - update website content
-- update website styling
-- integrate analytics tracking
 
 ### Phase 1 done's
 - select certain templates for required pages (home, services, about, contact)
@@ -24,6 +19,12 @@ Get website up and running!
 - fixed floating footer
 - apply new nav across all pages
 - make footer stick to page bottom (for short pages)
+- integrate analytics tracking
+- add google maps to contact page
+- updated footer with contact details
+- update contact page to build requirements
+- rolled out contact sidebar to content pages
+- update about page to build requirements
 
 ## Phase 2 to do's
 Enhance website!

@@ -21,6 +21,9 @@ Get website up and running!
 - update home page to build requirements
 - update footer info layout
 - fixed home page responsive issues
+- fixed floating footer
+- apply new nav across all pages
+- make footer stick to page bottom (for short pages)
 
 ## Phase 2 to do's
 Enhance website!

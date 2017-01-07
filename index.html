@@ -85,7 +85,7 @@ $(document).ready(function () {
         <!-- Main Navigation
         ================================================== -->
         <div class="span7 navigation">
-            <div class="navbar hidden-phone">
+            <div class="navbar">
 
             <ul class="nav">
                 <li class="active"><a href="index.html">Home</a></li>
@@ -98,7 +98,7 @@ $(document).ready(function () {
 
             <!-- Mobile Nav
             ================================================== -->
-            <form action="#" id="mobile-nav" class="visible-phone">
+            <!-- <form action="#" id="mobile-nav" class="visible-phone">
                 <div class="mobile-nav-select">
                     <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
                         <option value="">Navigate...</option>
@@ -108,7 +108,7 @@ $(document).ready(function () {
                         <option value="contact.html">Contact</option>
                     </select>
                 </div>
-            </form>
+            </form> -->
 
         </div>
 
@@ -204,16 +204,16 @@ $(document).ready(function () {
 	<div class="footer-container"><!-- Begin Footer -->
     	<div class="container">
         	<div class="row footer-row">
-                <div class="span3 footer-col">
-                    Get in touch with us today!
-                    <address>
-                        <strong>M</strong> 0000 0000<br />
-                        <strong>E</strong> email@email.com<br />
-                        30 License Rd, Diggers Rest VIC 0000
-                    </address>
-                    <ul class="social-icons">
-                        <li><a href="#" class="social-icon facebook"></a></li>
-                    </ul>
+                <div class="span12 footer-col relative">
+                    <a href="#" class="social-icon facebook absolute pos-l footer-info__facebook"></a>
+                    <div class="footer-info__contact">
+                        Get in touch with us today!
+                        <address>
+                            <strong>M</strong> 0000 0000<br />
+                            <strong>E</strong> email@email.com<br />
+                            30 License Rd, Diggers Rest VIC 0000
+                        </address>
+                    </div>
                 </div>
             </div>
 

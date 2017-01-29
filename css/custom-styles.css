@@ -701,14 +701,16 @@ ul.img-feed li {
 @media (min-width: 980px) and (max-width: 1199px) {
 	.social-icons li:last-child {display:none;}
 }
+.social-icon,
 a.social-icon {
 	background: url(../img/social-icons.png);
 	display: block;
 	width: 46px;
 	height: 46px;
 }
+.facebook,
 a.facebook {background-position: 0px 0px;}
-a.facebook:hover {background-position: 0px -47px;}
+/*a.facebook:hover {background-position: 0px -47px;}*/
 a.twitter{background-position: -52px 0px;}
 a.twitter:hover {background-position: -52px -47px;}
 a.dribble{background-position: -104px 0px;}
@@ -723,7 +725,10 @@ a.forrst:hover {background-position: -208px -47px;}
 .footer-sub div div span {padding: 0px 20px;}
 
 /**** New Footer ****/
-.footer-info__facebook { top: 16px; }
+.footer-info {
+	width: 50%;
+}
+.footer-info__facebook { top: 7px; }
 .footer-info__contact { padding-left: 66px; }
 
 /**************************************
@@ -886,3 +891,7 @@ a.accordion-toggle{background: #f5f5f5;}
 .m-b-30 { margin-bottom: 30px; }
 .m-b-60 { margin-bottom: 60px; }
 .no-m-b { margin-bottom: 0; }
+.no-hover:hover {
+	color: inherit;
+	text-decoration: none;
+}

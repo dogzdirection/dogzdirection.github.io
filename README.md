@@ -3,13 +3,14 @@ Dogz Direction website
 
 ## Phase 1 to do's
 Get website up and running!
+- link to domain
+- testing
+
+
 - find stock dog images @bemma
 - update images
 - update remaining website content
 - finishing touches
-- testing
-- link to domain
-- company email setup
 
 - logo to ben (for clothing)
 - business card design
@@ -34,6 +35,7 @@ Get website up and running!
 
 ## Phase 2 to do's
 Enhance website!
+- company email setup
 - enlarge nav for desktop resolutions
 - logo 2x size for retina
 - fix minor responsive issues
@@ -43,6 +45,7 @@ Enhance website!
 - integrate contact form
 - integrate templates into templating language (separate content from structure)
 - website basic SEO integration + plan
+- highlight multiple areas on a Google map
 - (future) page: testimonials
 - (future) page: gallery
 

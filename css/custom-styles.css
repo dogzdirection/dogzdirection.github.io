@@ -257,6 +257,29 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 **************************************/
 .gallery-title { margin-bottom:15px; }
 .gallery-item { margin-bottom:15px; margin-top:15px; }
+.service-tile {
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.service-tile img {
+	-moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.service-tile:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.project-details {
+	position: relative;
+	z-index: 2;
+}
+
+@media (max-width: 767px) {
+	.service-tile { max-width: 350px; }
+}
 
 .gallery-hover-6col,
 .gallery-hover-4col,

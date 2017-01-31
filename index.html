@@ -33,8 +33,10 @@
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/jquery.custom.js"></script>
+    <script src="js/fastclick.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            FastClick.attach(document.body);
 
             $("#btn-blog-next").click(function () {
               $('#blogCarousel').carousel('next')
@@ -157,7 +159,7 @@
 
                     <!-- Gallery Item 1 -->
                     <li class="span4 gallery-item" data-id="id-1" data-type="illustration">
-                        <a href="services.html" class="no-hover">
+                        <a href="services.html" class="service-tile no-hover">
                             <img src="images/home-training.jpg" alt="Dog Training">
                             <span class="project-details">
                                 Dog Training
@@ -167,7 +169,7 @@
 
                     <!-- Gallery Item 2 -->
                     <li class="span4 gallery-item" data-id="id-2" data-type="illustration">
-                        <a href="services.html#walking" class="no-hover">
+                        <a href="services.html#walking" class="service-tile no-hover">
                             <img src="images/home-walking.jpg" alt="Dog Walking">
                             <span class="project-details">
                                 Dog Walking
@@ -177,7 +179,7 @@
 
                     <!-- Gallery Item 3 -->
                     <li class="span4 gallery-item" data-id="id-3" data-type="web">
-                        <a href="services.html#sitting" class="no-hover">
+                        <a href="services.html#sitting" class="service-tile no-hover">
                             <img src="images/home-pet-sitting.jpg" alt="Pet Sitting">
                             <span class="project-details">
                                 Pet Sitting

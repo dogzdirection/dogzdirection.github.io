@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="https://www.w3.org/1999/xhtml">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Dogz Direction - dog training, walking & pet sitting services - Diggers Rest, Melton, Sunbury and surrounds</title>
@@ -35,216 +36,219 @@
     <script src="js/jquery.custom.js"></script>
     <script src="js/fastclick.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
             FastClick.attach(document.body);
 
-            $("#btn-blog-next").click(function () {
-              $('#blogCarousel').carousel('next')
+            $("#btn-blog-next").click(function() {
+                $('#blogCarousel').carousel('next')
             });
-             $("#btn-blog-prev").click(function () {
-              $('#blogCarousel').carousel('prev')
+            $("#btn-blog-prev").click(function() {
+                $('#blogCarousel').carousel('prev')
             });
 
-             $("#btn-client-next").click(function () {
-              $('#clientCarousel').carousel('next')
+            $("#btn-client-next").click(function() {
+                $('#clientCarousel').carousel('next')
             });
-             $("#btn-client-prev").click(function () {
-              $('#clientCarousel').carousel('prev')
+            $("#btn-client-prev").click(function() {
+                $('#clientCarousel').carousel('prev')
             });
 
         });
 
-         $(window).load(function(){
+        $(window).load(function() {
 
             $('.flexslider').flexslider({
                 animation: "slide",
                 slideshow: true,
-                start: function(slider){
-                  $('body').removeClass('loading');
+                start: function(slider) {
+                    $('body').removeClass('loading');
                 }
             });
         });
-
     </script>
 </head>
 
 <body class="home">
     <!-- Color Bars (above header)-->
-	<div class="color-bar-1"></div>
+    <div class="color-bar-1"></div>
     <div class="color-bar-2 color-bg"></div>
 
-    <div class="container">
+    <div class="main-container">
+        <div class="container">
 
-      <div class="row header"><!-- Begin Header -->
+            <div class="row header">
+                <!-- Begin Header -->
 
-        <!-- Logo
-        ================================================== -->
-        <div class="span5 logo">
-        	<a href="index.html"><img src="img/header-logo.png" alt="" /></a>
-        </div>
-
-        <!-- Main Navigation
-        ================================================== -->
-        <div class="span7 navigation">
-            <div class="navbar">
-                <ul class="nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-
-            <!-- Mobile Nav
-            ================================================== -->
-            <!-- <form action="#" id="mobile-nav" class="visible-phone">
-                <div class="mobile-nav-select">
-                    <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
-                        <option value="">Navigate...</option>
-                        <option value="index.html">Home</option>
-                        <option value="services.html">Services</option>
-                        <option value="about.html">About</option>
-                        <option value="contact.html">Contact</option>
-                    </select>
+                <!-- Logo
+                ================================================== -->
+                <div class="span5 logo">
+                    <a href="index.html"><img src="img/header-logo.png" alt="" /></a>
                 </div>
-            </form> -->
-        </div>
 
-      </div><!-- End Header -->
+                <!-- Main Navigation -->
+                <div class="span7 navigation">
+                    <div class="navbar">
+                        <ul class="nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
 
-    <div class="row headline"><!-- Begin Headline -->
+                </div>
 
-     	<!-- Slider Carousel
-        ================================================== -->
-        <div class="span8">
-            <div class="flexslider">
-              <ul class="slides">
-                <li>
-                    <a href="services.html">
-                        <img src="images/home-carousel-1.jpg" alt="slider" />
-                    </a>
-                </li>
-                <li>
-                    <a href="services.html">
-                        <img src="images/home-carousel-2.jpg" alt="slider" />
-                    </a>
-                </li>
-                <li>
-                    <a href="services.html">
-                        <img src="images/home-carousel-3.jpg" alt="slider" />
-                    </a>
-                </li>
-              </ul>
             </div>
-        </div>
+            <!-- End Header -->
 
-        <!-- Headline Text
-        ================================================== -->
-        <div class="span4">
-        	<h3>Welcome to Dogz Direction<br />
-            Dog Training, Walking and Pet Sitting Services</h3>
-            <p class="lead no-m-b">Dogz Direction is a locally owned and operated business servicing the Outer North Western Suburbs of Melbourne.</p>
-        </div>
-    </div><!-- End Headline -->
+            <div class="row headline">
+                <!-- Begin Headline -->
 
-    <div class="row gallery-row"><!-- Begin Gallery Row -->
+                <!-- Slider Carousel
+                ================================================== -->
+                <div class="span8">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <a href="services.html">
+                                    <img src="images/home-carousel-1.jpg" alt="slider" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="services.html">
+                                    <img src="images/home-carousel-2.jpg" alt="slider" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="services.html">
+                                    <img src="images/home-carousel-3.jpg" alt="slider" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-    	<div class="span12">
-
-        <!-- Gallery Thumbnails
-        ================================================== -->
-
-            <div class="row clearfix no-margin">
-            <ul class="gallery-post-grid holder">
-
-                    <!-- Gallery Item 1 -->
-                    <li class="span4 gallery-item" data-id="id-1" data-type="illustration">
-                        <a href="services.html" class="service-tile no-hover">
-                            <img src="images/home-training.jpg" alt="Dog Training">
-                            <span class="project-details">
-                                Dog Training
-                            </span>
-                        </a>
-                    </li>
-
-                    <!-- Gallery Item 2 -->
-                    <li class="span4 gallery-item" data-id="id-2" data-type="illustration">
-                        <a href="services.html#walking" class="service-tile no-hover">
-                            <img src="images/home-walking.jpg" alt="Dog Walking">
-                            <span class="project-details">
-                                Dog Walking
-                            </span>
-                        </a>
-                    </li>
-
-                    <!-- Gallery Item 3 -->
-                    <li class="span4 gallery-item" data-id="id-3" data-type="web">
-                        <a href="services.html#sitting" class="service-tile no-hover">
-                            <img src="images/home-pet-sitting.jpg" alt="Pet Sitting">
-                            <span class="project-details">
-                                Pet Sitting
-                            </span>
-                        </a>
-                    </li>
-
-                </ul>
+                <!-- Headline Text
+                ================================================== -->
+                <div class="span4">
+                    <h3>Welcome to Dogz Direction<br />
+                    Dog Training, Walking and Pet Sitting Services</h3>
+                    <p class="lead no-m-b">Dogz Direction is a locally owned and operated business servicing the Outer North Western Suburbs of Melbourne.</p>
                 </div>
             </div>
+            <!-- End Headline -->
 
-    </div><!-- End Gallery Row -->
+            <div class="row gallery-row">
+                <!-- Begin Gallery Row -->
 
-    </div> <!-- End Container -->
+                <div class="span12">
+
+                    <!-- Gallery Thumbnails
+                ================================================== -->
+
+                    <div class="row clearfix no-margin">
+                        <ul class="gallery-post-grid holder">
+
+                            <!-- Gallery Item 1 -->
+                            <li class="span4 gallery-item" data-id="id-1" data-type="illustration">
+                                <a href="services.html" class="service-tile no-hover">
+                                    <img src="images/home-training.jpg" alt="Dog Training">
+                                    <span class="project-details">
+                                    Dog Training
+                                </span>
+                                </a>
+                            </li>
+
+                            <!-- Gallery Item 2 -->
+                            <li class="span4 gallery-item" data-id="id-2" data-type="illustration">
+                                <a href="services.html#walking" class="service-tile no-hover">
+                                    <img src="images/home-walking.jpg" alt="Dog Walking">
+                                    <span class="project-details">
+                                    Dog Walking
+                                </span>
+                                </a>
+                            </li>
+
+                            <!-- Gallery Item 3 -->
+                            <li class="span4 gallery-item" data-id="id-3" data-type="web">
+                                <a href="services.html#sitting" class="service-tile no-hover">
+                                    <img src="images/home-pet-sitting.jpg" alt="Pet Sitting">
+                                    <span class="project-details">
+                                    Pet Sitting
+                                </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End Gallery Row -->
+        </div>
+    </div>
 
     <!-- Footer Area
         ================================================== -->
 
-        <div class="footer-container"><!-- Begin Footer -->
-          	<div class="container">
-              	<div class="row footer-row">
-                      <div class="span12 footer-col relative">
-                          <div class="footer-info">
-                              <span class="social-icon facebook absolute pos-l footer-info__facebook"></span>
-                              <div class="footer-info__contact">
-                                  <address>
-                                      Based in Diggers Rest, we service Outer North Western Suburbs including Melton, Sunbury and surrounds.
-                                      <br />
-                                      P <a href="tel:0434897097">0434 897 097</a>
-                                      <br />
-                                      E <a href="mailto:dogzdirection@outlook.com">dogzdirection@outlook.com</a>
-                                  </address>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+    <div class="footer-container">
+        <!-- Begin Footer -->
+        <div class="container">
+            <div class="row footer-row">
+                <div class="span12 footer-col relative">
+                    <div class="footer-info">
+                        <span class="social-icon facebook absolute pos-l footer-info__facebook"></span>
+                        <div class="footer-info__contact">
+                            <address>
+                                  Based in Diggers Rest, we service Outer North Western Suburbs including Melton, Sunbury and surrounds.
+                                  <br />
+                                  P <a href="tel:0434897097">0434 897 097</a>
+                                  <br />
+                                  E <a href="mailto:dogzdirection@outlook.com">dogzdirection@outlook.com</a>
+                              </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                  <div class="row"><!-- Begin Sub Footer -->
-                      <div class="span12 footer-col footer-sub">
-                          <div class="row no-margin">
-                              <div class="span6"><span class="left">Dogz Direction 2017</span></div>
-                              <div class="span6">
-                                  <span class="right">
-                                      <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="services.html">Services</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="about.html">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="contact.html">Contact</a>
-                                  </span>
-                              </div>
-                          </div>
-                      </div>
-                  </div><!-- End Sub Footer -->
+            <div class="row">
+                <!-- Begin Sub Footer -->
+                <div class="span12 footer-col footer-sub">
+                    <div class="row no-margin">
+                        <div class="span6"><span class="left">Dogz Direction 2017</span></div>
+                        <div class="span6">
+                            <span class="right">
+                                  <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="services.html">Services</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="about.html">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="contact.html">Contact</a>
+                              </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Sub Footer -->
 
-              </div>
-          </div><!-- End Footer -->
+        </div>
+    </div>
+    <!-- End Footer -->
 
     <!-- Scroll to Top -->
     <div id="toTop" class="hidden-phone hidden-tablet">Back to Top</div>
 
     <!-- google analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-89993501-1', 'auto');
-      ga('send', 'pageview');
+        ga('create', 'UA-89993501-1', 'auto');
+        ga('send', 'pageview');
     </script>
 </body>
+
 </html>

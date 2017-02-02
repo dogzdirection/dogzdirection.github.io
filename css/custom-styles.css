@@ -27,29 +27,16 @@ Reponsive Pattern
 html, body {
 	font-size: 16px;
 	line-height: 23px;
-	height: 100%;
+	height: 100vh;
 }
-body {background: #f9f9f9 url(../img/page-bg-1.jpg);}
-
-.main-container {	height: auto; }
-
-@media (min-width: 768px) {
-	.main-container {
-		min-height: 100%;
-		margin-top: -8px; /* for colour bars up top */
-		margin-bottom: -286px;
-	}
-	.main-container:after {
-		content: "";
-		display: block;
-	}
-}
-
-
+body { background-color: #333333; }
 @media (max-width: 767px) {
   body { padding-right: 0px; padding-left: 0px; }
   .container {margin-right: 20px; margin-left: 20px;}
  }
+.main-container {
+	background: #f9f9f9 url(../img/page-bg-1.jpg);
+}
 
 /***** Titles and Headings *****/
 h1, h2, h3, h4 , h5, h6 {
@@ -682,7 +669,7 @@ p.side {margin-bottom: 20px;}
  	z-index: 10;
 }
 .footer-row { margin-top: 30px;}
-.footer-col {color:#ababab; font-size: 11px;}
+.footer-col {color:#ababab; /* font-size: 11px; */ }
 .footer-col a {color:#dcdcdc; font-weight: bold;}
 .footer-col a:hover {color:#26ade4; text-decoration: none;}
 .footer-col h5, .footer-col strong {color:#f9f9f9; text-shadow:none;}

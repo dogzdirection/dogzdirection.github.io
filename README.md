@@ -3,7 +3,7 @@ Dogz Direction website
 
 ## Phase 1 to do's
 Get website up and running!
-- link to domain
+- all done !!
 
 ### Phase 1 done's
 - select certain templates for required pages (home, services, about, contact)
@@ -26,6 +26,7 @@ Get website up and running!
 - update images
 - update remaining website content
 - finishing touches
+- link to domain
 
 ## Phase 2 to do's
 Enhance website!

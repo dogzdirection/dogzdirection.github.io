@@ -3,7 +3,7 @@ Dogz Direction website
 
 ## Phase 1 to do's
 Get website up and running!
-- all done !!
+- fix js error on content pages
 
 ### Phase 1 done's
 - select certain templates for required pages (home, services, about, contact)
@@ -29,7 +29,8 @@ Get website up and running!
 - link to domain
 - remove sticky footer
 - change bg attachment so you don’t see floating footer on VPs with great height
-- styling fixes: nav @ipad-portriat, home hero copy size, misc footer, sidebar address, facebook footer link
+- styling fixes: nav @ipad-portrait, home hero copy size, misc footer, sidebar address, facebook footer link
+- fix content padding for mobile
 
 ## Phase 2 to do's
 Enhance website!

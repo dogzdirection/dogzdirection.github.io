@@ -83,7 +83,7 @@ blockquote {
 }
 blockquote.pull-right {border-right: 5px solid #999;}
 
-.content { margin-bottom: 0; }
+.content { margin-bottom: 25px; }
 @media (min-width: 768px) {
 	.content { margin-bottom: 50px; }
 }
@@ -748,8 +748,8 @@ a.forrst:hover {background-position: -208px -47px;}
 	font-size: 0;
 	color: transparent;
 	-webkit-transition:background-position .25s ease-out;
-	-moz-transition:background-position .25s ease-out;  
-	transition:background-position .25s ease-out; 
+	-moz-transition:background-position .25s ease-out;
+	transition:background-position .25s ease-out;
 }
 .footer-info__contact { padding-left: 66px; }
 @media (min-width: 768px) {

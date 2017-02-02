@@ -117,7 +117,7 @@ p, ul, ol, address {
 	.row.header {margin-bottom: 30px;}
 	.logo h5 {display: block;}
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 		.logo, .navigation { text-align: center; }
 }
 /* Portrait tablet to landscape and desktop */
@@ -147,7 +147,7 @@ p, ul, ol, address {
 	.navbar .nav { margin: 0; }
 	.navbar .nav > li { width: 25%; }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 		.navigation .navbar {
 			margin: 0 auto;
     	display: inline-block;
@@ -669,7 +669,14 @@ p.side {margin-bottom: 20px;}
  	z-index: 10;
 }
 .footer-row { margin-top: 30px;}
-.footer-col {color:#ababab; /* font-size: 11px; */ }
+.footer-col {
+	color:#ababab;
+	font-size: 13px;
+}
+.footer-sub { margin-bottom: 20px; }
+@media (min-width: 768px) {
+	.footer-sub { margin-bottom: 30px; }
+}
 .footer-col a {color:#dcdcdc; font-weight: bold;}
 .footer-col a:hover {color:#26ade4; text-decoration: none;}
 .footer-col h5, .footer-col strong {color:#f9f9f9; text-shadow:none;}
@@ -685,7 +692,6 @@ p.side {margin-bottom: 20px;}
 	.footer-col {
 		clear:both;
 		overflow: auto;
-		margin-bottom: 20px;
 	}
 	.footer-sub .right {display: none;}
 }
@@ -720,7 +726,7 @@ a.social-icon {
 }
 .facebook,
 a.facebook {background-position: 0px 0px;}
-/*a.facebook:hover {background-position: 0px -47px;}*/
+a.facebook:hover {background-position: 0px -47px;}
 a.twitter{background-position: -52px 0px;}
 a.twitter:hover {background-position: -52px -47px;}
 a.dribble{background-position: -104px 0px;}
@@ -735,11 +741,20 @@ a.forrst:hover {background-position: -208px -47px;}
 .footer-sub div div span {padding: 0px 20px;}
 
 /**** New Footer ****/
-.footer-info {
-	width: 50%;
+.footer-info {}
+.footer-info__facebook {
+	top: 7px;
+	line-height: 0;
+	font-size: 0;
+	color: transparent;
+	-webkit-transition:background-position .25s ease-out;
+	-moz-transition:background-position .25s ease-out;  
+	transition:background-position .25s ease-out; 
 }
-.footer-info__facebook { top: 7px; }
 .footer-info__contact { padding-left: 66px; }
+@media (min-width: 768px) {
+	.footer-info { width: 50%; }
+}
 
 /**************************************
 / MISC

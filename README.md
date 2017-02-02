@@ -27,6 +27,9 @@ Get website up and running!
 - update remaining website content
 - finishing touches
 - link to domain
+- remove sticky footer
+- change bg attachment so you don’t see floating footer on VPs with great height
+- styling fixes: nav @ipad-portriat, home hero copy size, misc footer, sidebar address, facebook footer link
 
 ## Phase 2 to do's
 Enhance website!

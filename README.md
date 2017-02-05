@@ -33,10 +33,12 @@ Get website up and running!
 - fix content padding for mobile
 - logo x2 size
 - home link to "/"
+- remove favicon
 
 ## Phase 2 to do's
 Enhance website!
-- company email setup
+- favicon!
+- company email setup (?)
 - enlarge nav for desktop resolutions
 - logo 2x size for retina
 - fix minor responsive issues

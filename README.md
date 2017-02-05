@@ -31,6 +31,8 @@ Get website up and running!
 - change bg attachment so you don’t see floating footer on VPs with great height
 - styling fixes: nav @ipad-portrait, home hero copy size, misc footer, sidebar address, facebook footer link
 - fix content padding for mobile
+- logo x2 size
+- home link to "/"
 
 ## Phase 2 to do's
 Enhance website!

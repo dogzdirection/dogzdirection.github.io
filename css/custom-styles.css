@@ -108,7 +108,10 @@ p, ul, ol, address {
 / Header
 **************************************/
 .logo { margin-top:40px; }
-.logo img { padding-right:20px; }
+.logo img {
+	width: 305px;
+	height: auto;
+}
 .logo h5 { display: inline-block; }
 .headline { margin-bottom:20px; }
 
